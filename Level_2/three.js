@@ -1,6 +1,6 @@
 const question = [
-    "side = 5", "area = side ** 2", "print(f'Area of the rectangle: {area}')"
-  ];
+    "import calendar", "yy = 2014", "mm = 11", "print(calendar.month(yy, mm)) "
+];
   const container = document.getElementById('container');
   const codeContainer = document.getElementById('code-container');
   const checkButton = document.getElementById('checkButton');

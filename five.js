@@ -1,6 +1,6 @@
 const question = [
-    "num = 5", "sum = 0", "while num > 0:", "    sum += num", "    num -= 1", "print(f'Sum: {sum}')"
-  ];
+  "length = 10", "width = 5", "area = length * width", "print(f'Area of the rectangle: {area}')"
+];
   const container = document.getElementById('container');
   const codeContainer = document.getElementById('code-container');
   const checkButton = document.getElementById('checkButton');

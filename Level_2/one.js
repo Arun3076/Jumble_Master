@@ -1,6 +1,7 @@
 const question = [
-    "side = 5", "area = side ** 2", "print(f'Area of the rectangle: {area}')"
+  "num = 5","for i in range(1, 11):","ans = num * i"," print(num , 'x' , i , '=' , ans)"
   ];
+  
   const container = document.getElementById('container');
   const codeContainer = document.getElementById('code-container');
   const checkButton = document.getElementById('checkButton');
@@ -103,4 +104,6 @@ const question = [
   
   // Initialize the code challenge
   initializeCodeChallenge();
-  
+ /**"a = 5","b = 6","c = 7","s = (a + b + c) / 2","area = (s*(s-a)*(s-b)*(s-c)) ** 0.5","print('The area of the triangle is %0.2f' %area)"
+
+c = 7 */

@@ -1,7 +1,6 @@
 const question = [
-    "num1 = 15", "num2 = 7", "num3 = 20", "if (num1 >= num2) and (num1 >= num3):", "    largest = num1",
-    "elif (num2 >= num1) and (num2 >= num3):", "    largest = num2", "else:", "    largest = num3",
-    "print(f'The largest number is: {largest}')"
+  "x = 5","y = 10","temp = x","x = y","y = temp","print('The value of x after swapping: {}'.format(x))","print('The value of y after swapping: {}'.format(y))"
+   
   ];
   const container = document.getElementById('container');
   const codeContainer = document.getElementById('code-container');
@@ -105,4 +104,6 @@ const question = [
   
   // Initialize the code challenge
   initializeCodeChallenge();
-  
+  /*
+  "x = 5","y = 10","temp = x","x = y","y = temp","print('The value of x after swapping: {}'.format(x))","print('The value of y after swapping: {}'.format(y))"
+   */

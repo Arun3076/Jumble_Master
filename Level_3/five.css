@@ -2,16 +2,17 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b3e0ff; /* Cool Blue */
+    background-color: #bde0fe; /* Cool Blue */
     text-align: center;
   }
   
   header {
-    background-color: #4CAF50;
+    background-color:#f54733;/* #fa97bc;*/
     color: white;
     text-align: center;
     padding: 20px;
     padding-bottom: 10px;
+   
   }
   
   .container {
@@ -26,29 +27,32 @@ body {
     margin: 5px;
     width: 80%;
     padding: 10px 20px;
-    background-color: #99ccff; /* Light Blue */
+    background-color: #bde0fe; /* Light Blue */
     cursor: grab;
     border-radius: 10px;
     transition: background-color 0.3s ease-in-out;
   }
   
   .code-box:hover {
-    background-color: #ff9999; /* Light Red */
+    background-color: #abff4f; /* Light Red */
   }
   
   button {
+    text-align:start;
     margin-top: 10px;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color:#f54733;/* #fa97bc;*/
     color: white;
     border: none;
     border-radius: 5px;
+    font-weight: bolder;
+    border: none;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color:#f54733;/* #fa97bc;*/
   }
   h1{
     margin-top: 0px;

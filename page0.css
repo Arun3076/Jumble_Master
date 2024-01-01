@@ -6,7 +6,7 @@ body{
 }
 div{
     background-color: rgba(7, 229, 249, 0.984);
-    height: 120px;
+    height: 150px;
     color: white;
   
 }
@@ -17,15 +17,27 @@ button{
    background-color: rgb(75, 215, 75); 
    color: white;
    border-radius: 5px;
-   height: 25px;
-   width: 50px;
+   height: 4vh;
+   width: 20vw;
    border: none;
    position: relative;
-}/*
+}
 img{
-    
-}*/
+    padding-bottom: 30px;
+}
 .hi{
-    margin-top: 50px;
+    margin-top: 80px;
     background-color:white;
+}
+.jum{
+    padding-top: 30px;
+}
+.container{
+    margin-top: 0;
+}
+.note{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding-top: 20px;
 }

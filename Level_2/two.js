@@ -1,5 +1,7 @@
 const question = [
-    "side = 5", "area = side ** 2", "print(f'Area of the rectangle: {area}')"
+    "num1 = 15", "num2 = 7", "num3 = 20", "if (num1 >= num2) and (num1 >= num3):", "    largest = num1",
+    "elif (num2 >= num1) and (num2 >= num3):", "    largest = num2", "else:", "    largest = num3",
+    "print(f'The largest number is: {largest}')"
   ];
   const container = document.getElementById('container');
   const codeContainer = document.getElementById('code-container');

@@ -81,3 +81,8 @@ body {
   .para{
     color: white;
   }
+  #med{
+    background-color: #f1fd4a;
+    border: 1px solid black;
+    color: black;
+  }
